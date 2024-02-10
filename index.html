@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--google fonts-Nunito-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Juvenil 79 - HOME</title>
+</head>
+<body>
+
+    <!--contenedor para las grillas-->
+    <div class="grid">
+        <header class="grid__menu d-flex align-items-center">
+            <!--nav de BTS-->
+            <nav class="navbar navbar-expand-lg  w-100 navcambios">
+                <section class="container-fluid flex-row">
+                  <a class="navbar-brand w-25" href="#"><img src="./assets/recursos-centrojuvenil79/logos/logo-juvenil chico.png" alt="Logo de juvenil 79"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav justify-content-end w-100">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/promociones.html">Promociones</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/quienes-somos.html">Quienes somos</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                      </li>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </nav>
+        </header>
+    
+        <main class="grid__contprincipal">
+            <section class="grid__contprincipal__secciones">
+                <!--descripcion del centro + boton-->
+                <article class="grid__contprincipal__secciones__card">
+                    <h3 class="grid__contprincipal__secciones__card__title">Bienvenido a Centro de formación para futbolistas</h3>
+                    <p>Descubre el legado del fútbol argentino en Juvenil 79, el centro de formación dirigido por Abelardo Carabelli, una leyenda que formó parte de la inolvidable selección juvenil campeona del mundo en 1979.</p>
+
+                    <!--boton BTS-->
+                    <section class="d-grid gap-2">
+                      <button class="btn btn-modificado-primary" type="button">Contactanos</button>
+                    </section>
+                </article>
+                <!--imagen del director del centro -->
+                <article class="grid__contprincipal__secciones__card">
+                    <img src="./assets/recursos-centrojuvenil79/fotos-staff/Foto-abel-seleccion79.png" alt="imagen de Abelardo Carabelli futbolista de la seleccion juvenil del 79">
+                </article>
+            </section>
+           
+            <section class="grid__contprincipal__secciones">
+                <!--video de referencia-->
+               <div class="grid__contprincipal__secciones__card__video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wFDg96i8kw0?si=4PiPAREj87wk0R90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+               </div> 
+            </section>
+            <section class="grid__contprincipal__secciones">
+                <!--descripcion de slides-->
+                <article class="grid__contprincipal__secciones__card">
+                    <p>De risas compartidas a victorias celebradas, estas fotos capturan los momentos inolvidables que hacen de Juvenil 79 mucho más que un centro de formación. Son instantes que definen amistades, crecimiento personal y éxito colectivo.</p>
+                </article>
+
+                <!--slides de BT-->
+                <section class="grid__contprincipal__secciones__card">
+                    <article id="carouselExampleIndicators" class="carousel slide" >
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./assets/recursos-centrojuvenil79/fotos-slides/j79-25.1-13.jpg" class="d-block w-100" alt="DOs alumnos del Centro de formacion descansando de un ejercicio">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/recursos-centrojuvenil79/fotos-slides/j79-25.1-14.jpg" class="d-block w-100" alt="Alumnos en un ejercicio de futbol">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/recursos-centrojuvenil79/fotos-slides/j79-25.1-21.jpg" class="d-block w-100" alt="Alumno en ejercicio de fuerza">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </article>
+                </section>
+            </section>
+    
+        </main>
+    
+        <footer class="grid__footer">
+            <!--nav de BTS para footer-->
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><img src="./assets/recursos-centrojuvenil79/logos/facebook chico.png" alt="Logo de facebook"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="./assets/recursos-centrojuvenil79/logos/instagram chico.png" alt="logo de instagram"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="./assets/recursos-centrojuvenil79/logos/whatsapp chico.png" alt="Logo de whatsapp"></a>
+                </li>
+              </ul>
+            
+           
+        </footer>
+    </div>
+    <!--BT script-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+</html>
