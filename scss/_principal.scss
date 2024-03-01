@@ -1,0 +1,59 @@
+/*MAIN*/
+.grid__contprincipal {
+    grid-area: main;
+    &__secciones {
+        width: 100%;
+        @include alineaciones (space-around, none, center, wrap, none);
+        
+        &__card {
+            @include alineaciones ( center, center, center, wrap, row );
+            width: 35%;
+            padding: 2rem;
+            margin: 22px 10px;
+            text-align: center;  
+            
+            &__title {
+                font-size: map-get($size-title, title-sec );
+                font-weight: 400;
+                margin-bottom: 0.3rem;
+            }
+            img {
+                width: 100%;
+            }
+            &__video {
+            @include alineaciones (center, center, none, wrap, row );
+            width: 100%;
+            padding: 2rem;
+            margin: 22px 10px;
+            }
+        }
+        &__formulario {
+            @include alineaciones (center, flex-start, center, wrap, column );
+            width: 35%;
+            padding: 2rem;
+            margin: 22px 10px;
+            text-align: center;   
+        }
+        }
+}
+
+
+/*BTS*/
+
+.navcambios {
+    background-color: $color-principal;
+}
+
+.nav {
+    flex-wrap: nowrap;
+}
+
+.btn-modificado-primary {
+    color: $color-black;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: $color-principal ;
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+  }
+    

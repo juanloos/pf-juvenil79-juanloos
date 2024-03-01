@@ -1,0 +1,122 @@
+/* colores 
+principal: #38B6FF
+principal 2: #C0C1BE
+secundario: #FEEA00
+secundario 2: #FC5130
+negro: #050401
+*/
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  background-color: #C0C1BE;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.5fr repeat(3, 1fr) 0.2fr;
+  grid-template-areas: "header header header header" "main   main   main   main  " "main   main   main   main  " "main   main   main   main  " "footer footer footer footer ";
+}
+
+/*Header*/
+.grid__menu {
+  background-image: url("../assets/recursos-centrojuvenil79/fotos-slides/j79-25.1-21.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-area: header;
+}
+.grid__menu img {
+  width: 25%;
+}
+
+/*MAIN*/
+.grid__contprincipal {
+  grid-area: main;
+}
+.grid__contprincipal__secciones {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: none;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: none;
+}
+.grid__contprincipal__secciones__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 35%;
+  padding: 2rem;
+  margin: 22px 10px;
+  text-align: center;
+}
+.grid__contprincipal__secciones__card__title {
+  font-size: 2.5 rem;
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+.grid__contprincipal__secciones__card img {
+  width: 100%;
+}
+.grid__contprincipal__secciones__card__video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: none;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  padding: 2rem;
+  margin: 22px 10px;
+}
+.grid__contprincipal__secciones__formulario {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 35%;
+  padding: 2rem;
+  margin: 22px 10px;
+  text-align: center;
+}
+
+/*BTS*/
+.navcambios {
+  background-color: #38B6FF;
+}
+
+.nav {
+  flex-wrap: nowrap;
+}
+
+.btn-modificado-primary {
+  color: #050401;
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: $color-principal ;
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+}
+
+/*Footer*/
+.grid__footer {
+  grid-area: footer;
+}
+.grid__footer__menu {
+  background-image: url(../assets/recursos-centrojuvenil79/backgraund-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=main.css.map */

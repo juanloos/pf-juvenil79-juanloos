@@ -1,0 +1,12 @@
+/*Footer*/
+.grid__footer {
+    grid-area: footer;
+    &__menu {
+        background-image: url(../assets/recursos-centrojuvenil79/backgraund-home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,8 @@
+@mixin alineaciones ($justi, $align-it, $align-cont, $wrap, $direction, ) {
+    display: flex;
+    justify-content: $justi;
+    align-items: $align-it;
+    align-content: $align-cont;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+    }

@@ -1,0 +1,23 @@
+//este es el archivo que es mi guia
+//comillas simples las hago con alt+39
+
+//reset principal
+@import './reset/vars';
+@import './reset/reset.scss';
+
+@import './reset/mixin';
+
+
+//layout - grid
+@import './reset/layout';
+
+
+//estructura
+@import 'header';
+@import 'principal';
+@import 'footer'
+
+//media queries
+
+
+
