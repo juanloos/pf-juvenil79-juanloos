@@ -66,9 +66,9 @@ negro: #050401
     flex-direction: row;
     align-items: center;
     align-content: center;
-    text-align: center;          
+    text-align: center;
+          
 }
-
 .grid__contprincipal__secciones__card__title {
     font-size: 2.5rem;
     font-weight: 400;

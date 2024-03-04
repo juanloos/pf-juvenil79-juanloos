@@ -9,4 +9,9 @@
         display: flex;
         flex-wrap: wrap;
     }
+    &__contenedor {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
 }

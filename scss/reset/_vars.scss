@@ -22,4 +22,26 @@ $size-title:(
     title-princ: 3 rem,
     title-sec: 2.5 rem,
     title-text: 1.5 rem,
-)
+);
+
+// poner un hover de color en los iconos de contactos de footer
+
+$redes-sociales: (
+    instagram: $color-black,
+    whatsapp: $color-black,
+    facebook: $color-black,
+    //redes  ,  color
+
+); 
+
+@each $redes, $color in $redes-sociales {
+    .bi-#{$redes} {
+        color: $color;
+        width: 16px;
+        height:16px;
+        margin: 16px;
+        &:hover {
+            box-shadow: 2px 2px 2px $color;
+        }
+    }
+}

@@ -5,6 +5,36 @@ secundario: #FEEA00
 secundario 2: #FC5130
 negro: #050401
 */
+.bi-instagram {
+  color: #050401;
+  width: 16px;
+  height: 16px;
+  margin: 16px;
+}
+.bi-instagram:hover {
+  box-shadow: 2px 2px 2px #050401;
+}
+
+.bi-whatsapp {
+  color: #050401;
+  width: 16px;
+  height: 16px;
+  margin: 16px;
+}
+.bi-whatsapp:hover {
+  box-shadow: 2px 2px 2px #050401;
+}
+
+.bi-facebook {
+  color: #050401;
+  width: 16px;
+  height: 16px;
+  margin: 16px;
+}
+.bi-facebook:hover {
+  box-shadow: 2px 2px 2px #050401;
+}
+
 * {
   font-family: "Nunito", sans-serif;
   margin: 0;
@@ -55,6 +85,11 @@ negro: #050401
   padding: 2rem;
   margin: 22px 10px;
   text-align: center;
+  transition-duration: 2s;
+  transition-delay: 0.2s;
+}
+.grid__contprincipal__secciones__card:hover {
+  transform: scale(1.2);
 }
 .grid__contprincipal__secciones__card__title {
   font-size: 2.5 rem;
@@ -118,5 +153,28 @@ negro: #050401
   display: flex;
   flex-wrap: wrap;
 }
+.grid__footer__contenedor {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+
+  .grid__contprincipal__secciones__card {
+      width: 80%;
+  }
+}
+
+/*mobile*/
+@media (min-width: 1px) and (max-width: 480px){
+
+  .grid__contprincipal__secciones__card {
+      width: 90%;
+  }
+
+}
+
 
 /*# sourceMappingURL=main.css.map */
