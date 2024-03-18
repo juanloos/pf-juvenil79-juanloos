@@ -1,11 +1,7 @@
 /*Header*/
 .grid__menu {
-    background-image:url("../assets/recursos-centrojuvenil79/fotos-slides/j79-25.1-21.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(90deg, #69ade2, whitesmoke);
     grid-area: header;
-
     img {
         width: 25%;
     }
