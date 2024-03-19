@@ -10,7 +10,7 @@ negro: #050401
 */
 
 $color-principal: #38B6FF;
-$color-principal-2:   #C0C1BE;
+$color-principal-2:   #e0d9d9;
 $color-secundario: #FEEA00;
 $color-secundario-2: #FC5130;
 $color-black: #050401;
@@ -41,7 +41,7 @@ $redes-sociales: (
         height:16px;
         margin: 16px;
         &:hover {
-            box-shadow: 2px 2px 2px $color;
+            box-shadow: 2px 2px 2px $color-principal-2;
         }
     }
 }

@@ -1,14 +1,37 @@
 /*Media Queries*/
 
+/*tablet*/
 @media (min-width: 481px) and (max-width: 780px) {
+
+    html,body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
     .grid__contprincipal__secciones__card {
         width: 80%;
     }
+    .grid__contprincipal__secciones__card__video {
+      display: none;
+    }
   }
+
   /*mobile*/
   @media (min-width: 1px) and (max-width: 480px){
+    html,body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
     .grid__contprincipal__secciones__card {
         width: 90%;
+    }
+    .grid__contprincipal__secciones__card__video {
+      display: none;
     }
   
   }

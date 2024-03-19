@@ -9,9 +9,10 @@
             @include alineaciones ( center, center, center, wrap, row );
             width: 35%;
             padding: 2rem;
-            margin: 22px 10px;
-            text-align: center;  
+            margin: 100px 10px;
+            text-align: center;
             
+
             &__title {
                 font-size: map-get($size-title, title-sec );
                 font-weight: 400;
@@ -19,7 +20,9 @@
             }
             img {
                 width: 100%;
+                border-radius: 35px;
             }
+
             &__video {
             @include alineaciones (center, center, none, wrap, row );
             width: 100%;
@@ -37,12 +40,50 @@
         }
 }
 
+.varcolor {
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/recursos-centrojuvenil79/juvenil79-titular-monumental.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
 
+.card-mod {
+    background: #000000;
+    color: $color-principal-2;
+    border-radius: 35px;
+    //transicion
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+  
+    &:hover {
+        background-color: $color-principal-2;
+        color: #000000;
+        transform: scale(1.2);
+    }
+}
+
+.carrousel {
+    width: 75%;
+    background: black;
+    border-radius: 35px;
+ }
+
+ .img-mod {
+    background:#000000;
+    border-radius: 35px;
+ }
 /*BTS*/
 
 .navcambios {
     background-color: $color-principal;
     background: linear-gradient(90deg, transparent, $color-principal);
+    --bs-navbar-active-color: #ffffff;
+    --bs-navbar-hover-color: #FC5130;
+}
+
+.footer-cambios {
+    background-color: $color-principal;
+    background: transparent;
 }
 
 .nav {
@@ -56,5 +97,20 @@
     --bs-btn-bg: $color-principal ;
     --bs-btn-border-color: var(--bd-violet-bg);
     --bs-btn-hover-color: var(--bs-white);
+  }
+
+  .btn-modificado {
+    //color por defecto
+    color: #e0d9d9;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: rgb(32, 31, 30);
+    //cuando el boton esta en hover
+    --bs-btn-border-color: $color-principal;
+    --bs-btn-hover-color: $color-principal;
+    --bs-btn-hover-bg: #e0d9d9;
+    //cuando esta pulsando el boton
+    --bs-btn-active-color: #e0d9d9;
+    --bs-btn-active-bg: #FC5130;
+
   }
     
