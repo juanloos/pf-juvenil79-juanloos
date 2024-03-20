@@ -140,6 +140,9 @@ negro: #050401
   width: 75%;
   background: black;
   border-radius: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img-mod {
