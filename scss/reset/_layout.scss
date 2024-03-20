@@ -2,7 +2,7 @@
     background: linear-gradient(227deg, #f3f4f5, #89c3f5);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.2fr repeat(3, 1fr) 0.2fr;
+    grid-template-rows: 0.2fr repeat(3, 1fr) 0.1fr;
     grid-template-areas: 
     "header header header header"
     "main   main   main   main  "
